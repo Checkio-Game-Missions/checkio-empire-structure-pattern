@@ -1,11 +1,10 @@
-You are given a pattern as a positive integer and a row structure as a word.
-For the comparison, the recognition system should convert the integer pattern into binary form, 
-append zeros to left to match the structure length and compare this combination with the structure.
+You are given a pattern as a positive integer and you are also given a row structure as a word.
+For comparison, the recognition system should convert the integer pattern into binary form. It needs to append zeros to left to match the structure length and compare this combination with the structure.
 
 **1 is a letter and 0 is a digit.**
 
-If the pattern and the structure match, then return True, else -- False. 
-If pattern is longer than a structure, then they are do not match (Example: 8 = 1000 and "a").
+If the pattern and the structure match, then return True, else return False. 
+If the pattern is longer than a given structure, then they are not a match (Example: 8 = 1000 and "a").
 
 Here's an example: the given pattern is 42 and the structure is "12a0b3e4". 
 42 == 101010 in binary form, but this is not long enough to match the structure. 
