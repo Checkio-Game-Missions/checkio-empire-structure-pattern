@@ -29,4 +29,5 @@ if (!global.is_checking) {
     assert.equal(checkStructure(29, 'aXz', 4), false, "A Z" );
     assert.equal(checkStructure(39294442, 'Feed Them ALL', 4), true, "Feed them" );
     assert.equal(checkStructure(2385166685525, 'C3PO and 300 spartans', 4), true, "C3PO");
+    console.log("Code's finished? Earn rewards by clicking 'Check' to review your tests!");
 }
